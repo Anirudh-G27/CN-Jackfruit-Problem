@@ -81,4 +81,8 @@ If a username is already taken, the server will disconnect you.
 
 **SSL/TLS Encryption**: Uses the `ssl` module and your `.pem` files to wrap raw sockets, preventing eavesdropping. 
 **Base64 Encoding**: Files are encoded into Base64 during transit to ensure binary data doesn't interfere with text-based command parsing. 
-**Thread Safety**: Uses `threading.Lock()` to prevent data corruption when multiple users update room lists simultaneously. 
+**Thread Safety**: Uses `threading.Lock()` to prevent data corruption when multiple users update room lists simultaneously.
+
+### ⚡ Performance
+- Multi-threaded server
+- Efficient handling of multiple clients
