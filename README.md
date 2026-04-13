@@ -1,5 +1,3 @@
----
-
 # 🔒 Secure Multi-Room Chat System with File Transfer
 
 ## 📌 Project Information
