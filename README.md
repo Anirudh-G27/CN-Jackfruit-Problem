@@ -83,6 +83,20 @@ If a username is already taken, the server will disconnect you.
 **Base64 Encoding**: Files are encoded into Base64 during transit to ensure binary data doesn't interfere with text-based command parsing. 
 **Thread Safety**: Uses `threading.Lock()` to prevent data corruption when multiple users update room lists simultaneously.
 
+## ⚙️ Features
+
+### 💬 Chat Features
+- Multi-room chat system
+- Real-time messaging
+- Private messaging (PM)
+
+### 📁 File Transfer
+- Send files between users
+- Maximum file size: **10MB**
+- Accept/Reject file transfers
+- 
 ### ⚡ Performance
 - Multi-threaded server
 - Efficient handling of multiple clients
+
+
