@@ -1,5 +1,3 @@
-My apologies—that's a technical hiccup on my end. Here is the clean, fully updated version of your README with the architecture, setup instructions (using your existing `.pem` files), and usage guide combined.
-
 ---
 
 # 🔒 Secure Multi-Room Chat System with File Transfer
